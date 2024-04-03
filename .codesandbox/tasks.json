@@ -11,33 +11,31 @@
   "tasks": {
     "dev": {
       "name": "dev",
-      "command": "npm run dev",
-      "runAtStart": true
+      "command": "npm run dev"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint",
-      "runAtStart": false
+      "command": "npm run lint"
     },
     "preview": {
       "name": "preview",
-      "command": "npm run preview",
-      "runAtStart": false
+      "command": "npm run preview"
     },
     "storybook": {
       "name": "storybook",
       "command": "npm run storybook",
-      "runAtStart": false
+      "runAtStart": true,
+      "preview": {
+        "port": 6006
+      }
     },
     "build-storybook": {
       "name": "build-storybook",
-      "command": "npm run build-storybook",
-      "runAtStart": false
+      "command": "npm run build-storybook"
     }
   }
 }
