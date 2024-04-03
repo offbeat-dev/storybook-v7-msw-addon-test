@@ -36,7 +36,7 @@
     "msw": "2.2.10",
     "sass": "^1.72.0",
     "storybook": "8.0.5",
-    "storybook-msw-addon": "2.1.0",
+    "storybook-msw-addon": "2.1.1",
     "typescript": "^5.2.2",
     "vite": "4.5.3"
   },
